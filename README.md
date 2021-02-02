@@ -4,23 +4,31 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Project Title
+# AI empowered crypto currency trading system
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This project is about merging the two hottest topics of today – crypto currencies (aka bitcoin, ethereum and altcoins) and AI – into a relatively simple AI empowered crypto currency trading system.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+More and more retail traders are driven to make a fortune in crypto currency trading. Unfortunately, human psychology is far too often on the way. Feelings of arousal and stress tend to impair one’s trading performance. Fear of losing, fear of missing out, fear of letting a profit turn into a loss and fear of not being right tend to cause human traders ‘getting screwed’ by the market even if they had all the knowledge. In addition, manually searching for trading opportunities is cumbersome and once one gets tired, one starts making mistakes. Last but not least, in case of human traders there is always a lot of difficult-to-track subjectivity involved.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Scanning through the vast amounts of data and performing rational calculations (trading is a probability game, after all!) is where the machines excel. On the other hand, humans have the ability to see the broader context, incl. factors that are not included in the models, and put things into perspective. 
+
+These are my considerations when coming to the space of cryptocurrency trading. I believe that AI can come handy in topics like identifying market trends and expecting ‘pumps and dump’ of certain assets. This is especially true on the cryptocurrency market as the space is still not crowded by the institutional traders.
+
+The ultimate goal of the project is to join the strengths of humans and machines to leverage the strengths and compensate for the weaknesses of both. The machine is ought to give ‘buy’ and ‘sell’ signals with proper location of stop-loss and limit orders as applicable; the machine should also output its ‘reasoning’ for each signal. It is then about human to decide whether to execute on the signal or not. (In order to continue improving the algorithm, the final decision and accompanying human judgement should be recorded as well.)
+
+To start with, there scope is limited in several respects when it comes to trading strategies, incl.:
+* No leverage;
+* No short selling;
+* No derivatives, no exotic instruments;
+* Only basic types of orders assumed (market order, limit order, stop order).
+In other words, there is going to be nothing overly complex or risky from the trading realm which a retail trader should not use.
 
 
 ## How is it used?
