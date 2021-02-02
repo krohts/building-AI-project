@@ -24,9 +24,9 @@ These are my considerations when coming to the space of cryptocurrency trading. 
 The ultimate goal of the project is to join the strengths of humans and machines to leverage the strengths and compensate for the weaknesses of both. The machine is ought to give ‘buy’ and ‘sell’ signals with proper location of stop-loss and limit orders as applicable; the machine should also output its ‘reasoning’ for each signal. It is then about human to decide whether to execute on the signal or not. (In order to continue improving the algorithm, the final decision and accompanying human judgement should be recorded as well.)
 
 To start with, there scope is limited in several respects when it comes to trading strategies, incl.:
-* No leverage;
-* No short selling;
-* No derivatives, no exotic instruments;
+* No leverage
+* No short selling
+* No derivatives, no exotic instruments
 * Only basic types of orders assumed (market order, limit order, stop order).
 In other words, there is going to be nothing overly complex or risky from the trading realm which a retail trader should not use.
 
@@ -62,18 +62,38 @@ main()
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+First, I intend to develop the solution for my own trading. Going forward, many retail traders might benefit from the project in the same way as I do – assuming that the project successfully executed and properly escalated.
+
+Daily trading stats on cryptos can be downloaded from https://coinmarketcap.com. Further data points to be ‘scraped’ include but are not limited to:
+* Crypto Fear & Greed Index (e.g.: https://alternative.me/crypto/fear-and-greed-index/)
+* Popularity of the search word ‘bitcoin’ (e.g.: Google Trends)
+* S&P 500 index data (e.g.: Yahoo! Finance)
+* U.S. Dollar Index (e.g.: MarketWatch)
+* isc. data points from TradingView
+
+Considering feasibility aspect, the AI techniques involved would be as simple as possible but not simpler. The current idea is to apply logistic regression as the AI issues in project scope are classification issues based on the numerical data. At the same time, there are many opportunities to expand in future: using deep learning for chart pattern recognition and text mining when it comes to sentiment analysis based on news headings, social media comments – just to name a few.
+
+All the programming will be done in Python and, if necessary, in other open-source languages such as R.
+
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Currently I see the following main risks to the project:
+* Getting stuck in details
+* The scope of the project expanding beyond what is feasible, given the available resources
+* There is no guarantee that a working solution will be found
+
+The way to address the first two challenges is to focus on delivering minimum viable product (MVP). Further refinements and upgrades are always possible in later iterations. As for the third challenge, even if no working solution is found this time, gained knowledge about what does NOT work is also valuable.
+
+Other challenges include my fairly limited practical experience with trading and with crypto. Furthermore, coding skills and machine learning skills need to be constantly improved. These are the kind of challenges that motivate me; I am eager to learn.
+
+Assuming successful implementation, there are still going to be several limitations:
+* Most definitely, project outcome is not going to be a ‘money-making-bot’ one might dream of. (I think that chances of inventing a true ‘money-making-bot’ are about the same as the chances of coming up with a perpetual motion machine. ALL algorithms need to be properly maintained and updated as necessary.) 
+* There will not be any API connections with any specific trading platform; all trades would have to be finally decided by a human and executed manually.
+* The algorithm will cover only the basics of what a professional trader typically does and considers (think of most basic order types, most basic technical indicators, limited timeframes etc.).
+* No solution is developed for tracking the actual trades in real-time for later backtesting purposes.
+
 
 ## What next?
 
