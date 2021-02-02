@@ -1,4 +1,4 @@
-# AI empowered crypto currency trading system
+# AI-powered crypto currency trading system
 
 Final project for the Building AI course
 
@@ -31,7 +31,7 @@ First, I intend to develop the solution for my own trading. Going forward, many 
 
 A conceptual model of my envisioned AI-based trading solution is depicted on the figure below. Of course, there are other considerations out of the scope of current project that enter into the ‘calculation’, incl. risk management principles, transaction costs and taking portfolio-wide view. For now, these other considerations would be based on human judgement.
 
-[Pic to be added!]
+![trading-system-basic](https://github.com/krohts/building-AI-project/blob/main/AI-empowered-trading-system-basic.png)
 
 
 ## Data sources and AI methods
@@ -81,11 +81,11 @@ Next steps in the project execution are as follows:
 * Developing an AI based trading strategy, incl. backtesting the strategy on the data available till date
 * Writing clean scripts for implementation
 
-The above steps only provide a rough guidance. Inherently, modelling process is not something straightforward. Instead, the process is iterative and often returns back to the previous step. 
+The above steps only provide a rough guidance. Inherently, modelling process is not something straightforward. Instead, the process is iterative and often returns back to the previous step. Comment in brackets indicates if the given building block is in or out of scope of the current project; if ‘out-of-scope’, it is meant to be the manual part of the process in the current iteration.
 
 When it comes to further product development, the basic conceptual model developed in frame of the current project (see section ‘How is it used’) can be incorporated into a full-fledged algorithmic trading strategy as illustrated below. 
 
-[Pic to be added!]
+![trading-system-full](https://github.com/krohts/building-AI-project/blob/main/AI-empowered-trading-system-full.png)
 
 Once there is a working solution (product), there would be several options for building a business model around it. One example would be simply selling there trading signals to professional quant hedge funds. Legally more complicated yet more noble model would be contributing to the success of retail traders (e.g.: introducing a subscription-based service).
 
