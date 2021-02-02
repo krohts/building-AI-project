@@ -42,7 +42,7 @@ Daily trading stats on cryptos can be downloaded from https://coinmarketcap.com.
 * Popularity of the search word ‘bitcoin’ (e.g.: Google Trends)
 * S&P 500 index data (e.g.: Yahoo! Finance)
 * U.S. Dollar Index (e.g.: MarketWatch)
-* isc. data points from TradingView
+* Misc. data points from TradingView
 
 Considering feasibility aspect, the AI techniques involved would be as simple as possible but not simpler. The current idea is to apply logistic regression as the AI issues in project scope are classification issues based on the numerical data. At the same time, there are many opportunities to expand in future: using deep learning for chart pattern recognition and text mining when it comes to sentiment analysis based on news headings, social media comments, just to name a few.
 
