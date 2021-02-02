@@ -77,7 +77,7 @@ Next steps in the project execution are as follows:
 
 The above steps only provide a rough guidance. Inherently, modelling process is not something straightforward. Instead, the process is iterative and often returns back to the previous step. 
 
-Once there is a working solution (product), there would be several options for building a business model around it. For example, subscription-based services can be offered to retail investors. Also, smaller proprietary trading firms lacking machine learning skills might be interested. 
+Once there is a working solution (product), there would be several options for building a business model around it. One example would be simply selling there trading signals to professional quant hedge funds. Legally more complicated yet more noble model would be contributing to the success of retail traders (e.g.: introducing a subscription-based service).
 
 
 ## Acknowledgments
