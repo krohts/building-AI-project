@@ -1,9 +1,3 @@
-# building-AI-project
-
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
 # AI empowered crypto currency trading system
 
 Final project for the Building AI course
@@ -33,32 +27,7 @@ In other words, there is going to be nothing overly complex or risky from the tr
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+First, I intend to develop the solution for my own trading. Going forward, many retail traders might benefit from the project in the same way as I do – assuming that the project successfully executed and properly escalated.
 
 
 ## Data sources and AI methods
@@ -97,13 +66,20 @@ Assuming successful implementation, there are still going to be several limitati
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Next steps in the project execution are as follows:
+* Business understanding (trading; crypto currencies) & defining the MVP in detail
+* Data gathering / writing data gathering scripts
+* Writing data preparation scripts, incl. programmatically defining technical indicators, trendlines, S/R levels, chart patterns etc. looked for by the traders (here, there are bits and pieces of open-source code available – it is about finding out and connecting the dots)
+* Programmatically defining the model output variable(s)
+* Model development, experimenting with various options
+* Developing an AI based trading strategy, incl. backtesting the strategy on the data available till date
+* Writing clean scripts for implementation
+
+The above steps only provide a rough guidance. Inherently, modelling process is not something straightforward. Instead, the process is iterative and often returns back to the previous step. 
+
+Once there is a working solution (product), there would be several options for building a business model around it. For example, subscription-based services can be offered to retail investors. Also, smaller proprietary trading firms lacking machine learning skills might be interested. 
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Hacker Noon author Rafael Schultze-Kraft for demonstrating how simply ‘throwing’ complex algorithms to the price data does NOT work and for sharing his Python code for inspiration: https://hackernoon.com/dont-be-fooled-deceptive-cryptocurrency-price-predictions-using-deep-learning-bf27e4837151 
