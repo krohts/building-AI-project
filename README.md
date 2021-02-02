@@ -13,21 +13,25 @@ More and more retail traders are driven to make a fortune in crypto currency tra
 
 Scanning through the vast amounts of data and performing rational calculations (trading is a probability game, after all!) is where the machines excel. On the other hand, humans have the ability to see the broader context, incl. factors that are not included in the models, and put things into perspective. 
 
-These are my considerations when coming to the space of cryptocurrency trading. I believe that AI can come handy in topics like identifying market trends and expecting ‘pumps and dump’ of certain assets. This is especially true on the cryptocurrency market as the space is still not crowded by the institutional traders.
+These are my considerations when coming to the space of cryptocurrency trading. I believe that AI can come handy in tasks like identifying market trends and expecting ‘pumps and dump’ of certain assets. This is especially true on the cryptocurrency market as the space is still not crowded by the institutional traders.
 
-The ultimate goal of the project is to join the strengths of humans and machines to leverage the strengths and compensate for the weaknesses of both. The machine is ought to give ‘buy’ and ‘sell’ signals with proper location of stop-loss and limit orders as applicable; the machine should also output its ‘reasoning’ for each signal. It is then about human to decide whether to execute on the signal or not. (In order to continue improving the algorithm, the final decision and accompanying human judgement should be recorded as well.)
+The ultimate goal of the project is to join the strengths of humans and machines to leverage the strengths and compensate for the weaknesses of both. AI is ought to give ‘buy’ and ‘sell’ signals with proper location of stop-loss and limit orders as applicable; the machine should also output its ‘reasoning’ for each signal. It is then about human to decide whether to execute on the signal or not. (In order to continue improving the algorithm, the final decision and accompanying human judgement should be recorded as well.)
 
 To start with, there scope is limited in several respects when it comes to trading strategies, incl.:
 * No leverage
 * No short selling
 * No derivatives, no exotic instruments
 * Only basic types of orders assumed (market order, limit order, stop order).
-In other words, there is going to be nothing overly complex or risky from the trading realm which a retail trader should not use.
+In other words, there is going to be nothing overly complex or risky from the trading realm which a retail trader should better not use.
 
 
 ## How is it used?
 
 First, I intend to develop the solution for my own trading. Going forward, many retail traders might benefit from the project in the same way as I do – assuming that the project successfully executed and properly escalated.
+
+A conceptual model of my envisioned AI-based trading solution is depicted on the figure below. Of course, there are other considerations out of the scope of current project that enter into the ‘calculation’, incl. risk management principles, transaction costs and taking portfolio-wide view. For now, these other considerations would be based on human judgement.
+
+[Pic to be added!]
 
 
 ## Data sources and AI methods
@@ -49,9 +53,11 @@ All the programming will be done in Python and, if necessary, in other open-sour
 ## Challenges
 
 Currently I see the following main risks to the project:
-* Getting stuck in details
-* The scope of the project expanding beyond what is feasible, given the available resources
-* There is no guarantee that a working solution will be found
+<ol>
+<li> Getting stuck in details </li>
+<li> The scope of the project expanding beyond what is feasible, given the available resources </li>
+<li> There is no guarantee that a working solution will be found </li>
+</ol> 
 
 The way to address the first two challenges is to focus on delivering minimum viable product (MVP). Further refinements and upgrades are always possible in later iterations. As for the third challenge, even if no working solution is found this time, gained knowledge about what does NOT work is also valuable.
 
@@ -76,6 +82,10 @@ Next steps in the project execution are as follows:
 * Writing clean scripts for implementation
 
 The above steps only provide a rough guidance. Inherently, modelling process is not something straightforward. Instead, the process is iterative and often returns back to the previous step. 
+
+When it comes to further product development, the basic conceptual model developed in frame of the current project (see section ‘How is it used’) can be incorporated into a full-fledged algorithmic trading strategy as illustrated below. 
+
+[Pic to be added!]
 
 Once there is a working solution (product), there would be several options for building a business model around it. One example would be simply selling there trading signals to professional quant hedge funds. Legally more complicated yet more noble model would be contributing to the success of retail traders (e.g.: introducing a subscription-based service).
 
